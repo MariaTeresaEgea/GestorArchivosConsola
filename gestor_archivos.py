@@ -4,7 +4,6 @@ import time
 from colorama import Fore, Style, init
 init (autoreset=True)
 
-
 def mostrar_menu(): # creamos el menú principal
     print("\n" + "="*60)
     print(Fore.CYAN + "GESTOR DE ARCHIVOS EN CONSOLA".center(60))
